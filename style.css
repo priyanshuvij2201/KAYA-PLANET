@@ -26,6 +26,7 @@ p{
   -webkit-box-shadow: none;
   box-shadow: none;
 }
+<<<<<<< Updated upstream
 /* footer{
   position: absolute;
   bottom: 0;
@@ -78,14 +79,37 @@ p{
   bottom: 0;
   overflow: hidden;
   padding: 20px 20px;
+=======
+
+
+.social-footer{
+
+  display: block;
+background-color: black;
+position: fixed;
+bottom: 0;
+width: 100%;
+padding: 20px 0px;
+text-align: center;
+
+}
+
+.social-footer div{
+  display: block;
+  margin: 0 auto;
+>>>>>>> Stashed changes
 }
 .social-footer a{
+<<<<<<< Updated upstream
   background-color: black;
+=======
+  display: block;
+>>>>>>> Stashed changes
   color: #f2f2f2;
-  text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 30px;
+<<<<<<< Updated upstream
 }
 .social-footer-right{
   color: #f2f2f2;
@@ -97,6 +121,29 @@ p{
   text-decoration: none;
   font-size: 20px;
 }
+=======
+  margin-left: 43%;
+}
+.social-footer span{
+  display: block;
+  margin: 0 auto;
+
+}
+
+/* }.social-footer-right{
+color: #f2f2f2;
+align-items: center;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+/* padding: 14px 16px; */
+/* text-decoration: none;
+font-size: 20px; */
+
+
+ */
+
+>>>>>>> Stashed changes
 .social-footer a:hover {
   background-color: #f3f4f6;
   color: black;
